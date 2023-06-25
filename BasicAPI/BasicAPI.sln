@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicAPI", "BasicAPI\BasicAPI.csproj", "{5C21798E-81F1-4BAF-A87A-FFE4CF3D7FE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicAPIClient", "BasicAPIClient\BasicAPIClient.csproj", "{41287451-999F-424C-91E1-5A470D4B6A57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE2D21A9-6A28-4001-A2E9-F8D370DCB9BE}"
+	ProjectSection(SolutionItems) = preProject
+		nswag.json = nswag.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C21798E-81F1-4BAF-A87A-FFE4CF3D7FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C21798E-81F1-4BAF-A87A-FFE4CF3D7FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C21798E-81F1-4BAF-A87A-FFE4CF3D7FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C21798E-81F1-4BAF-A87A-FFE4CF3D7FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41287451-999F-424C-91E1-5A470D4B6A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41287451-999F-424C-91E1-5A470D4B6A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41287451-999F-424C-91E1-5A470D4B6A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41287451-999F-424C-91E1-5A470D4B6A57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1460719B-8EAA-4D9F-AA1E-F5CC02CF16FE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<Version>1.0.4-local</Version>
+    <TargetFramework>net6.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<IncludeSymbols>true</IncludeSymbols>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<EmbedAllSources>true</EmbedAllSources>
+	<DebugType>Embedded</DebugType>
+	<!--Optional-->
+	<!--<PackageId>TestingMe</PackageId>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
